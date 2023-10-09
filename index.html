@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--<link rel="stylesheet" type="text/css" href="./assets/CSS/style.css">-->
+        <title>TASK 5</title>
+        <style>
+          body{
+            background-color:rgb(0, 0, 0);
+            
+          }
+          header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+          }
+          nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+          }
+          nav li {
+            display: inline;
+            margin-left: 20px;
+          }
+          nav li:first-child {
+            margin-left: 0;
+
+          }
+          nav a {
+            text-decoration: none;
+            color: #000000;
+          }
+          nav a:hover {
+            color: #000;
+          }
+          div {
+            width: 900px;
+            height: 600px;
+            margin: 20px auto;
+            
+            background-color:#ffffff;
+            
+            
+          }
+          .container {
+            width: 900px;
+            height: 50px;
+            margin: 0px;
+            padding: 20px;
+            background-color:#ffffff;
+            
+          }
+          .container1 {
+            text-align: center;
+            width: 900px;
+            height: 300px;
+            margin: 0px;
+            padding: 20px;
+            background-image: url(./Images/img1.jpg);
+          }
+          .container2 {
+            width: 900px;
+            height: auto;
+            margin: 0px;
+            padding: 20px;
+            background-color:#ffffff;
+            
+          }
+          .container3 {
+            text-align: start;
+            width: 900px;
+            height: 300px;
+            margin: 0px;
+            padding: 20px;
+            background-color:deepskyblue;
+          }
+          .container4 {
+            width: 900px;
+            height: 80px;
+            margin: 0px;
+            padding: 20px;
+            background-color:#ffffff;
+          }
+          h1 {
+            color:#ffffff;
+            font-size: 30px;
+            font-weight: bold;
+            font-style: oblique;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+          }
+          h2 {
+            color: rgb(0, 0, 0);
+            font-style: normal;
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          }
+          .search-container {
+             display: flex;
+             align-items: center;
+           background-color: #ffffff;
+             width: 400px;
+             height: 5px;
+             padding: 20px;
+             border-radius: 40px;
+             
+          }
+          .search-bar {
+             padding: 10px;
+             width: 300px;
+             box-sizing: border-box;
+             border-radius: 40px;
+             justify-items: center;
+             vertical-align: top;
+             border: 0px;
+          }
+         .search-button {
+            width: 300px;
+             padding: 10px;
+             margin: 10px;
+             position: relative;
+             border-radius: 40px;
+             vertical-align: top;
+             background-color: #000;
+             
+         }
+          
+          h5 {
+            text-align: center; color: #000000; 
+          }
+           .con {
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            max-width: 900px;
+            margin: 0;
+            height: 20%;
+           position:relative ;
+           }
+          .des {
+            width: 50%;
+            text-align: center justify;
+            height: auto;
+            margin: 0px;
+           
+          }
+          .image {
+            width:max-content;
+            margin: 0px;
+           
+            
+
+          }
+          image img {
+            max-width: 90%; 
+            height: auto;
+            margin: 0px;
+            display: block;
+        
+          }
+          .cont {
+            width: 900px;
+            margin: 0px auto;
+            display: flex;
+            text-align: center;
+            justify-content: space-between;
+            margin: 0px;
+
+
+          }
+          .imag {
+            flex: 1;
+            margin: 0px;
+            
+          }
+          .imag img {
+            max-width: 100%; 
+            height: auto;
+            margin: 0px;
+            display: block;
+            
+          }
+
+          .desc {
+            flex: 1;
+           height: auto;
+            text-align: center justify;
+            margin: 0px;
+            
+          }
+        
+          
+          
+        </style>
+            </head>
+            <body>
+                <div>
+                    <div class="container">
+                        <header>
+                        <h1 style="text-align: start; color:deepskyblue;">GOIND</h1>
+                        <nav>
+                        <ul>
+                            <li><a href="index.html" class="active">HOME</a></li>
+                            <li><a href="#">JOB SEARCH</a></li>
+                            <li><a href="#">RECRUITERS</a></li>
+                            <li><a href="#">COMPANIES</a></li>
+                            <li><a href="#">SERVIECS</a></li> 
+                            <li><a href="#">MORE</a></li>
+                            <li><a href="#" style="color: skyblue;">LOGIN HERE</a></li>
+                        </ul></nav></header>
+                      </div>
+                  <div class="container1">
+                    <h1>Best Naukari Search Here</h1>
+                    <div class="search-container">
+                        <input type="text" class="search-bar" placeholder="Search...">
+                        <button class="search-button" onclick="search()" style="color: #ffffff;">Subscribe</button>
+                      </div>
+                      <p style="color: #ffffff;">There are many variations of passages of torem Ipsum available, but the majority have suffered alteration There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration</p>
+                    
+                    <label><input type="button" value="Discover More" style="background-color: rgb(0, 0, 0); color: #ffffff; width: 150px; height:30px;" ></label></p>
+                  </div>
+                  <div class="container2">
+                     <div class="con">
+                        <div class="image">
+                            <img src="./Images/mark.jpg" alt="mark" width="500px" height="200px">
+                        </div>
+                    <div class="des">
+                        <h2>Marketing Job</h2>
+                        <p>There are many variations of passages of torem Ipsum available, but the majority have suffered alteration There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration</p>
+                        <input type="button" value="Apply Now" style="color: #ffffff; background-color: #000;">
+                    </div>
+                    
+                   </div> 
+                   <div class="cont">
+                    <div class="desc">
+                         <h2>Industrial Job</h2>
+                         <p>There are many variations of passages of torem Ipsum available, but the majority have suffered alteration There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration</p>
+                        <input type="button" value="Apply Now" style="color: #ffffff; background-color: #000;">
+                    </div>
+                    <div class="imag">
+                        <img src="./Images/ind.jpeg" alt="ind"  width="500px" height="200px">
+                    </div>
+                   </div>
+                   <div class="con">
+                    <div class="image">
+                        <img src="./Images/cor.jpg" alt="corp" width="500px" height="200px">
+                    </div>
+                <div class="des">
+                    <h2>Corporating Job</h2>
+                    <p>There are many variations of passages of torem Ipsum available, but the majority have suffered alteration There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration</p>
+                    <input type="button" value="Apply Now" style="color: #ffffff; background-color: #000;">
+                </div>
+                
+               </div> 
+               <div class="cont">
+                <div class="desc">
+                     <h2>Government Job</h2>
+                     <p>There are many variations of passages of torem Ipsum available, but the majority have suffered alteration There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration</p>
+                    <input type="button" value="Apply Now" style="color: #ffffff; background-color: #000;">
+                </div>
+                <div class="imag">
+                    <img src="./Images/Government-job.jpg" alt="Government-job"  width="500px" height="200px">
+                </div>
+               </div>
+                  </div>
+                  <div class="container3">
+                     <h2 style="text-align: start; color: #ffffff; font-style: normal;" >Subscribe Now</h2>
+                     <p style="color: white;">There are many variations pf passagesof Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus asperiores nesciunt beatae deserunt eveniet. Enim accusantium quisquam in voluptatibus voluptate sint saepe dicta, facere eum veniam quis obcaecati aspernatur voluptates.</p>
+                     <div class="search-container">
+                        <input type="email" class="search-bar" placeholder="Enter your email">
+                        <button class="search-button" onclick="search()" style="color: #ffffff;">Subscribe</button>
+                      </div>
+                    
+                  </div> 
+                  <div class="container4">
+                    <p style="text-align: center; color: blue;" >Term and Conditions  | Privacy and Policy  | Contacts</p>
+                    <p style="text-align: center">Copyright&copy; example.com 2023</p> 
+                  </div>
+                </div>
+            </body>
+ </html>
+        
+        
+        
